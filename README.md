@@ -2,7 +2,7 @@ Implementation(s) of Ray Tracing in 1 Weekend
 =======
 
 | Language        | Features | Reference | Why? |
-|-|-|-|
+|-----|-----|------|---|
 | C               | Complete | [Classic](https://raytracing.github.io/books/RayTracingInOneWeekend.html) | Simple language can compile with my own compiler |
 | CUDA C          | TODO     | [NVIDIA.com](https://developer.nvidia.com/blog/accelerated-ray-tracing-cuda/) | GPU programming is fun! NVIDIA lock-in yay |
 | Zig             | TODO     | [nelari.us](https://nelari.us/post/raytracer_with_rust_and_zig/) | Stricter safety guarantees, learning opportunity for me. |
