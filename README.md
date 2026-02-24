@@ -20,4 +20,8 @@ make help
 
 ## Progress
 
-![C Listing 1](./c/listing1.jpg)
+### Basic Gradient [`./c/listing1.c`](./c/listing1.c) or [`./c/listing6.c`](./c/listing6.c)
+
+A gradient with black, red, green, and yellow in each corner.
+
+![](./c/listing1.jpg)
