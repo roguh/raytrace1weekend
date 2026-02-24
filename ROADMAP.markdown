@@ -10,6 +10,11 @@
 
 # Planned expansions
 
+- HSV or other more human color system to allow for cleaner color effects
+    - CIE L*u*v uniform color space (1976)
+    - also Brewer's color sets
+    - color manipulation (opposite, triads, brighter, darker, etc); good random color
+    - easy color picker through CLI or GUI
 - More of my creative input, more figures, more scenes, etc
 - Add animation! Motion and line are my preferred artistic mediums, nothing in life is devoid of motion.
     - Move the camera
