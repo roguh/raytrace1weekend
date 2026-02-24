@@ -54,6 +54,7 @@ view:
 	$(MAKE) $(FILE).bin
 	$(FILE).bin > $(FILE).ppm
 	@if command -v magick >/dev/null; then magick $(FILE).ppm $(FILE).png; fi
+	@if command -v magick >/dev/null; then magick $(FILE).ppm $(FILE).jpg; fi
 	@if command -v open >/dev/null; then open $(FILE).png; fi
 
 # Individual compilation like existing script

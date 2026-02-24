@@ -17,3 +17,7 @@ make test                  # Run tests
 make clean                 # Clean up
 make help
 ```
+
+## Progress
+
+![C Listing 1](./c/listing1.jpg)
