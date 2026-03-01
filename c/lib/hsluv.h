@@ -47,6 +47,11 @@ extern "C" {
 void hsluv2rgb(double h, double s, double l, double* pr, double* pg, double* pb);
 
 /**
+ * Same as hsluv2rgb but it writes to integers from range 0 to 255
+ */
+void hsluv2rgb255(double h, double s, double l, int* pr, int* pg, int* pb);
+
+/**
  * Convert RGB to HSLuv.
  *
  * @param r Red component. Between 0.0 and 1.0.

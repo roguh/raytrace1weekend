@@ -412,6 +412,24 @@ hsluv2rgb(double h, double s, double l, double* pr, double* pg, double* pb)
 }
 
 void
+hsluv2rgb255(double h, double s, double l, int* pr, int* pg, int* pb)
+{
+    Triplet tmp = { h, s, l };
+
+    hsluv2lch(&tmp);
+    lch2luv(&tmp);
+    luv2xyz(&tmp);
+    xyz2rgb(&tmp);
+
+    double r = CLAMP(tmp.a, 0.0, 1.0);
+    double g = CLAMP(tmp.b, 0.0, 1.0);
+    double b = CLAMP(tmp.c, 0.0, 1.0);
+    *pr = (int)(r * 255.0);
+    *pg = (int)(g * 255.0);
+    *pb = (int)(b * 255.0);
+}
+
+void
 hpluv2rgb(double h, double s, double l, double* pr, double* pg, double* pb)
 {
     Triplet tmp = { h, s, l };

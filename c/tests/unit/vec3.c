@@ -1,4 +1,4 @@
-#include "../../vec3.h"
+#include "../../lib/vec3.h"
 #include <math.h>
 #include <stdio.h>
 #include <assert.h>

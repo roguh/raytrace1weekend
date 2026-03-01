@@ -25,3 +25,9 @@ make help
 A gradient with black, red, green, and yellow in each corner.
 
 ![](./c/listing1.jpg)
+
+### HSLuv Gradient [`./c/listing1_hsluv.c`](./c/listing1_hsluv.c) or [`./c/listing6.c`](./c/listing6.c)
+
+A gradient based on one hue, showing all possible saturation and luma values.
+
+![](./c/listing1_hsluv.jpg)
